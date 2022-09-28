@@ -1,0 +1,22 @@
+#header{
+    background-color: #9FDCD0;
+    color: #2C333F;
+    margin: 0;
+    padding: 5px 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.875rem;
+    /* position: fixed; */
+    width: 100%;
+}
+
+#header span{
+    color: #267e6b;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration:underline;
+    text-decoration-color: #267e6b;
+}
+.fa-duotone{
+    color: #267e6b;
+}
