@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    font-size: 1rem;
+}
+
+#navbarParent
+{
+    position: fixed;
+    width: 100%;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+    /* border: red; */
+    height: 96px;
+    padding: 0 60px;
+    /* border: solid; */
+    align-items: center;
+    background-color: #FFD95D;
+}
+
+#navbar>#logo{
+    width: 100%;
+    /* border: solid; */
+}
+
+#logo>img{
+    width: 70%;
+}
+
+#navbar>#new-tabs{
+    /* border: solid green; */
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+}
+
+#navbar>#new-tabs>button:hover{
+color: #267e6b;
+}
+
+#new-tabs>button{
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    color: #2C333F;
+}
+
+#navbar>#user-entry{
+    /* border: solid red; */
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+}
+
+#user-entry>button{
+    margin-left: 40px;
+    padding: 18px 28px;
+    border-radius: 50em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#user-entry a{
+    text-decoration: none;
+    font-weight: bold;
+    /* color: white; */
+}
+
+
+#user-entry>button:nth-child(1)
+{
+background-color: transparent;
+}
+
+#user-entry>button:nth-child(2)
+{
+background-color: #267e6b;
+}
+
+#user-entry a>:nth-child(2):link{
+    color: white;
+}
+
+/* *************************************************************************************** */
+/* ****************************************Top Container1************************************ */
+
+.desc-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 80px;
+}
+.desc1
+{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 100px;
+    padding-top: 96px;
+}
+
+.desc1>p:nth-child(1)
+{
+    font-size: 56px;
+}
+
+.desc1>p:nth-child(2)
+{
+    font-size: 18px;
+}
+
+.desc1>button{
+    width: 30%;
+    padding: 18px 28px;
+    border-radius: 50em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #267e6b;
+    color: white;
+    margin-top: 40px;
+    border: 1px solid #267e6b;
+    justify-content: center;
+}
+
+.img-top>img{
+    width: 100%;    
+}
+
+/* ************************************************************************************************ */
+/* ****************************************Top Container 2******************************************** */
+
+#top-container2>#desc-center{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+#top-container2>#desc-center>h1{
+    font-size: 40px;
+}
+
+#top-container2>#desc-center>p{
+    font-size: 18px;
+}
+
+.desc2
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.desc2>p
+{
+    font-size: 1.125rem;
+    line-height: 1.778;
+    text-align: left;
+    color: rgb(44, 51, 63);
+}
+
+li{
+    font-size: 1.125rem;
+    line-height: 1.778;
+    font-weight: 900;
+    color: rgba(44,51,63)
+}
+
+.desc2>button{
+    width: 150px;
+    padding: 18px 28px;
+    font-size: 00.875rem;
+    font-weight: 500;
+    line-height: 14px;
+    color: white;
+    background-color: #267e6b;
+    cursor: pointer;
+    border-radius: 9999px;
+}
+
+/* Mid video section */
+
+#mid-video-desc
+{
+    background-color: #DEEBE9;
+    text-align: center;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    padding: 56px;
+}
+
+#mid-video-desc>h1{
+    font-size: 0.75rem;
+    color: rgb(44,51,63)
+}
+
+#mid-video-desc>h2{
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: rgb(44,51,63);
+    margin-top: 16px;
+}
+
+iframe{
+    margin-top: 30px;
+}
+
+#desc-img-mid1
+{
+    text-align: center;
+    color: rgb(44,51,63);
+    margin-top: 150px;
+}
+
+#desc-img-mid1>h1
+{
+    font-size: 0.75rem;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+#desc-img-mid1>h2
+{
+    font-size: 2.5rem;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: 600;
+}
+
+#desc-img-mid1>p
+{
+    font-size: 1.2rem;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/*
+image and image tiles
+*/
+
+#grid-desc-img
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
