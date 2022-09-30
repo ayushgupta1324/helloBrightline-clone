@@ -10,12 +10,12 @@
 //       }
 //   });
 
-let about=document.querySelector("#about");
+let employer=document.querySelector("#careers");
 // let employer=document.querySelector("#employer");
 // let families=document.querySelector("#families");
 // let careers=document.querySelector("careers");
 
-about.addEventListener("click", expandAbout);
+employer.addEventListener("click", expandAbout);
 let navbar=document.querySelector("#navbar");
 
 function expandAbout()
@@ -23,6 +23,12 @@ function expandAbout()
     console.log("inside");
 //create div
 let aboutContainer=document.createElement("div");
+aboutContainer.style.padding="25px 1325px 25px 0"
+aboutContainer.style.marginLeft="-60px"
+aboutContainer.style.backgroundColor="#FFD95D";
+aboutContainer.style.display="flex";
+aboutContainer.style.justifyContent="flex-start";
+
 let aboutInfo=document.createElement("div");
 let aboutElements=document.createElement("div");
 
@@ -57,10 +63,9 @@ btn5.innerText="Blog";
 
 //append
 aboutInfo.append(aboutHeading,aboutPara);
-aboutElements.append(btn1,btn2,btn3,btn4,btn5);
+aboutElements.append(btn1,btn2,btn3);
 
 aboutContainer.append(aboutInfo,aboutElements);
-aboutContainer.style.display="flex";
 
 
 

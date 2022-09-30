@@ -1,0 +1,13 @@
+.gridCard{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 5px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+
+.card{
+    padding: 10px 35px 10px 35px;
+}
