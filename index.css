@@ -389,6 +389,12 @@ width: 20%;
         border: none;
 }
 
+/***********************************/
+#desc6
+{
+    margin-bottom: 120px;
+}
+
 .getStarted
 {
     display: grid;
@@ -414,6 +420,21 @@ width: 20%;
     height: 100%;
 }
 
+.getStarted h3
+{
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+color: #2C333F;
+font-size: 24px;
+}
+
+.getStarted p
+{
+    margin-top: 0;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2C333F;
+    line-height: 1.5;
+}
+
 .lightBtn
 {
     width:170px;
@@ -422,20 +443,19 @@ width: 20%;
     border-radius: 9999px;
     padding: 18px 28px 18px 28px;
     margin-right: 15px;
+    color: #267e6b;
 }
 
-.lightBtn a{
+/* .lightBtn a{
     color: #267e6b;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: center;
-}
+} */
 
 .lightBtn:hover{
     background-color: #267e6b;
-}
-.lightBtn:hover a{
     color: white;
 }

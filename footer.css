@@ -1,0 +1,13 @@
+#containerFooter
+{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,30% 60%);
+    height: 200px;
+    background-color: #2C333F;
+}
+
+/* .iconDiv
+{
+    display: flex;
+} */

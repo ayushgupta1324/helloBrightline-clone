@@ -1,0 +1,48 @@
+#learnBright h1{
+    padding-left: 5%;
+    font-size: 40px;
+    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-weight: normal;
+    color: #2C333F;
+}
+
+.containerLearn{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 120px;
+    line-height: 1.33;
+    font-size: 24px;
+}
+
+.containerLearn a:hover p:nth-child(3){
+    text-decoration:underline
+}
+
+.innerChild
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.innerChild p:nth-child(1){
+    padding-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+
+.innerChild p:nth-child(2){
+    padding-left: 10px;
+    font-size: 12px;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+.containerLearn img{
+    width: 100%;
+    height:450px;
+}
