@@ -6,33 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup | Brightline</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 
 <body>
+    <div id="logo">
+        <a href="index.html"> <img
+                src="https://www.hellobrightline.com/assets/brightline-logo.svg?w=163&h=40&fit=thumb&fm=png&q=90"
+                alt="brightline-logo"></a>
+
+    </div>
+
+
     <form action="">
-        <p>You're in the right place.</p>
-        <p>Brightline's team of expert is here to support your family with speech and language</p>
-        <h4>First let's setip your free account.</h4>
-        <label for="">Name *</label>
-        <input type="text" placeholder="Full name" id="name">
-        <label for="">Email *</label>
-        <input type="email" placeholder="Email" id="email">
-        <label for="">Password *</label>
-        <input type="password" placeholder="Password" id="psd">
-        <div class="checkBox"> <input type="checkbox" id="Privacy" name="Privacy" value="PrivacyAccept">
-            <p>I agree to Brightline's <a href="https://www.hellobrightline.com/privacy-practices">Privacy
-                    Practices</a>,<a href="https://www.hellobrightline.com/privacy-policy">Privacy Policy</a>, and <a
-                    href="https://www.hellobrightline.com/terms-of-service">Terms of Service</a></p>
+        <div id="image">
+            <img src="https://images.ctfassets.net/96gdpqkm7elu/6HV4AvkYOmKJReomUbRzfk/1a84dca6460b1415b5eb50c1230c9f95/ASD_program_and_content_blog_hero_op2_1200x628_295c15dfff.jpg?w=2500&h=1308&fit=crop&fm=webp&q=90"
+                alt="">
         </div>
-        <div class="checkBox"><input type="checkbox" id="reminder" name="reminder" value="appointment">
-            <p>I agree to receive Brightline communications via mail about my account and services, including
-                appointment
-                reminders </p>
+
+        <div id="data">
+            <p>You're in the right place.</p>
+            <p>Brightline's team of expert is here to support your family with speech and language</p>
+            <p>First let's setup your free account.</p>
+            <label for="">Name *</label>
+            <input type="text" placeholder="Full name" id="name" class="inputField" required>
+            <label for="">Email *</label>
+            <input type="email" placeholder="Email" id="email" class="inputField" required>
+            <label for="">Password *</label>
+            <input type="password" placeholder="Password" id="psd" class="inputField" required>
+
+            <div class="checkBox">
+                <input type="checkbox" class="checkID" name="Privacy" value="PrivacyAccept" required>
+                <p>I agree to Brightline's <a href="https://www.hellobrightline.com/privacy-practices">Privacy
+                        Practices</a>,<a href="https://www.hellobrightline.com/privacy-policy">Privacy Policy</a>, and
+                    <a href="https://www.hellobrightline.com/terms-of-service">Terms of Service</a>
+                </p>
+            </div>
+            <div class="checkBox">
+                <input type="checkbox" class="checkID" name="reminder" value="appointment">
+                <p>I agree to receive Brightline communications via mail about my account and services, including
+                    appointment reminders </p>
+            </div>
+            <a href="index.html" class="signUp"><input type="submit" value="SignUp" id="btn"></a>
+
+            <a href="signin.html">Already registered? Log in Instead</a>
+
         </div>
-        <input type="submit" value="Sign Up">
-        <a href="">Already registered? Log in Instead</a>
 
     </form>
 </body>
+<script src="signup.js"></script>
 
 </html>

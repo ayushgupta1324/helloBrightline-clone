@@ -17,7 +17,14 @@ body{
     padding: 0 60px;
     /* border: solid; */
     align-items: center;
+    background-color: transparent;
+    transition: background-color 0.4s ease-out;
+}
+
+#navbar.scroll
+{
     background-color: #FFD95D;
+
 }
 
 #navbar>#logo{
@@ -458,4 +465,10 @@ font-size: 24px;
 .lightBtn:hover{
     background-color: #267e6b;
     color: white;
+}
+
+#containerFooter
+{
+    background-color: #2C333F;
+    grid-template-columns: repeat(2,1fr 2fr);
 }
