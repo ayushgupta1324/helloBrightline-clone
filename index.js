@@ -10,6 +10,22 @@
 //       }
 //   });
 
+let nav=document.querySelector("#navbar")
+
+window.onscroll = () => {
+    const nav = document.querySelector('#navbar');
+    if(this.scrollY <= 10) 
+    {
+        nav.className = '';
+    }
+     else
+     {
+        nav.className = 'scroll';
+     }
+  };
+
+
+
 let employer=document.querySelector("#careers");
 // let employer=document.querySelector("#employer");
 // let families=document.querySelector("#families");

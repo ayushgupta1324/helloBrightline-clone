@@ -1,0 +1,153 @@
+body
+{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+
+
+#logo
+{
+    width: 10%;
+    margin-top: -70px;
+    height: 50px;
+    position: fixed;
+    margin-left: 50px;
+}
+
+
+form
+{
+    width: 45%;
+    margin: auto;
+    align-items: center;
+    background-color: whitesmoke;
+    height:auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    margin-top: 70px;
+}
+
+
+img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    margin-top: -70px;
+}
+
+form>div:nth-child(2)
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+form p:nth-child(1)
+{
+    text-align: center;
+    font-weight: bold; 
+    font-size: 18px;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2C333F;
+    margin-top: 25px;
+
+}
+
+form p:nth-child(2)
+{
+    text-align: center;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2C333F;
+    margin-top: 25px;
+}
+
+form p:nth-child(3)
+{
+    text-align: center;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2C333F;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+label
+{
+
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    color: #2C333F;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    display: block;
+}
+
+.inputField{
+    width: 90%;
+    margin: auto;
+    background-color: transparent;
+    border:0.5px solid grey;
+    padding: 5px 10px 5px 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.checkBox
+{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+}
+
+.checkID
+{
+    margin-right: 10px;
+}
+
+.checkBox>p a{
+    color: #267e6b;
+    text-decoration: none;
+}
+
+.checkBox p{
+    text-align: left;
+    font-size: 14px;
+    width: 90%;
+}
+
+#btn
+{
+    background-color: #267e6b;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 18px 28px 18px 28px;
+    border-radius: 9999px;
+    border: 1px solid #267e6b;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: #12463b;
+}
+
+.signUp
+{
+    text-decoration: none;
+    width: 0;
+}
+
+#data>div~a:last-child
+{
+    display: flex;
+    justify-content: center;
+    color: #267e6b;
+}
