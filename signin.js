@@ -22,18 +22,3 @@ logInBtn.addEventListener("click",function(event)
             
 })
 
-
-
-// document.querySelector("#logInBtn").addEventListener("mouseover",function(){
-//     if(document.querySelector("#email").value==""||document.querySelector("#psd").value=="")
-//     {
-//         document.querySelector("#logInBtn").style.cursor="not-allowed";
-//             console.log("abcde")
-//         return;
-//     }
-//     else{
-//         document.querySelector("#logInBtn").style.cursor="pointer";
-//         document.querySelector("#logInBtn").style.backgroundColor="#267e6b";
-//     }
-    
-//     }
