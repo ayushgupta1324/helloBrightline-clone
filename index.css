@@ -36,6 +36,43 @@ body{
     width: 70%;
 }
 
+.loginTop
+{
+    width:140px;
+    background-color: transparent;
+    border: 1px solid #267e6b;
+    border-radius: 9999px;
+    padding: 18px 28px 18px 28px;
+    margin-right: 15px;
+    color: #267e6b;
+    cursor: pointer;
+}
+
+
+.loginTop:hover{
+    background-color: #267e6b;
+    color: white;
+}
+
+
+.signUpTop
+{
+    width:140px;
+    background-color: #267e6b;
+    border: 1px solid #267e6b;
+    border-radius: 9999px;
+    padding: 18px 28px 18px 28px;
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.signUpTop:hover{
+    background-color: #184b40;
+    color: white;
+}
+
 #navbar>#new-tabs{
     /* border: solid green; */
     display: flex;
@@ -453,22 +490,89 @@ font-size: 24px;
     color: #267e6b;
 }
 
-/* .lightBtn a{
-    color: #267e6b;
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-} */
 
 .lightBtn:hover{
     background-color: #267e6b;
     color: white;
 }
 
+/* Footer Section */
+
 #containerFooter
 {
     background-color: #2C333F;
-    grid-template-columns: repeat(2,1fr 2fr);
+    display: grid;
+    grid-template-columns: repeat(2,40% 60%);
+    padding: 40px 50px;
+    color: white;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+
+}
+
+#footerEmail
+{
+    padding: 8px 12px 8px 12px;
+    width: 40%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#footerEmail+button{
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+    border: none;
+    background-color: white;
+    margin-left:-40px;
+    cursor: pointer;
+}
+
+
+.iconFooter>i
+{
+margin-right: 15px;
+}
+
+#extraInfo
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px;
+}
+
+#footerImg
+{
+    width: 60%;
+    display: flex;
+}
+#footerImg img:nth-child(2){
+    width: 27%;
+}
+
+#footerLast
+{
+    border-top:1px solid white;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C333F;
+    color: white;
+    padding-bottom: 20px;
+    font-family: ApercuPro, Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+#footerLastLeft{
+    color: white;
+    margin-top: 16px;
+}
+
+#footerLastLeft a{
+    color: white;
+    margin-right: 15px;
+}
+
+#textFooterRight
+{
+    padding-right: 70px;
+    line-height: 1.25;
 }
